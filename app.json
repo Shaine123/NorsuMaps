@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "NORSU-BSC Maps",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo/mapI.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo/mapI.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAZAsLOJeH_KeY41YE_U7QkP_Oi3RM1KOU"
+        }
+      },
+      "package": "com.shinNorsuMaps.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4c3025c2-28be-48c5-94d7-406d0747b3b6"
+      }
+    },
+    "owner": "shaine"
+  }
+}
